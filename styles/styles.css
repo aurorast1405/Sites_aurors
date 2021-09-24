@@ -41,3 +41,17 @@ img{
     color: mediumpurple;
     text-decoration: underline;
 }
+
+
+.plan {
+    width: 650px;
+    background-color: #9988b2;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+}
+.plan a {
+    color: #ffffff;
+}
+.plan h2 {
+    padding: 20px;
+}
