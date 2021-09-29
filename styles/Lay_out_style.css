@@ -1,0 +1,55 @@
+body{
+    font-family: Lucida Handwriting, cursive;
+    background: lavender;
+    padding: 20px 0 0 30px;
+    font-size: 16px;
+    color: indigo;
+}
+
+p{
+    margin-right: 600px;
+}
+
+aside {
+
+    margin-top: -200px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    float: right;
+    width: 400px;
+    min-height: 100px;
+    background-color: #f4f9fb;
+    border: 5px solid #39136e;
+    border-bottom-width: 15px;
+    box-shadow: 0 0 8px -1px #867f92;
+}
+
+.besides h2{
+    padding: 10px;
+}
+
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-spacing: 4px;
+    border: 3px solid #5d4584;
+    width: 600px;
+    background: #f4f9fb;
+}
+td {
+    padding: 10px;
+    padding-left: 20px;
+    border: 2px solid #5d4584;
+    box-shadow: #39136e;
+}
+
+th {
+    padding: 10px;
+    border: 2px solid #5d4584;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
