@@ -1,0 +1,42 @@
+body{
+    font-family: Lucida Handwriting, cursive;
+    background: lavender;
+    padding: 20px 20px 10px 30px;
+    font-size: 16px;
+    color: indigo;
+}
+h1{
+
+    font-size: 36px;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    text-align: center;
+    display: inline-block;
+    /*margin: 15px;*/
+    margin-right: -7px;
+    margin-left: 0;
+    padding: 5px;
+    background-color: #edf6f9;
+    width: 470px;
+    height: 35px;
+    border: 3px solid #5d4584;
+}
+code{
+    width: 600px;
+    padding: 5px;
+    background-color: #edf6f9;
+    border-left: 5px solid #5d4584;
+
+}
+.change:hover{
+    border: 6px solid #5d4584;
+}
