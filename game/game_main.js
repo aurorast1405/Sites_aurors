@@ -3,15 +3,20 @@ var ctx = canvas.getContext("2d");
 var x = canvas.width / 2;
 var y = canvas.height - 60;
 var w = canvas.width
-var speed_x = 1.5;
+var speed_x = 2;
 var speed_y = -60;
 var game_active = false
 var lives = 3
-var distract = [[w / 2 + 400], [w / 2 - 400, w / 2 - 400], [w / 2 + 400], [w / 2 - 400]]
+var distract = [[w / 2 + 400], [w / 2 + 400], [w / 2 - 400, w / 2 + 400], [w / 2 + 400], [w / 2 - 400], [w / 2 + 400], [w / 2 - 400, w / 2 + 400], [w / 2 - 400, w / 2 + 400]]
 
 
 document.addEventListener("keydown", keyDownHandler, false);
-//document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener('touchstart', function(event) {
+    if (event.targetTouches.length === 1) {
+        var myclick =event.targetTouches[0];
+        distract.shift();
+    }
+}, false);
 
 function keyDownHandler(e) {
     if(e.key === "Up" || e.key === "ArrowUp") {
@@ -22,14 +27,14 @@ function keyDownHandler(e) {
 }
 
 function startGame(){
-    if (game_active) game_active = false
-    else game_active = true
+    game_active = game_active ? false : true;
 }
 
 function draw_distract(){
     for (let i = 0; i < distract.length; i++){
         for (let j of distract[i]) {
             ctx.beginPath();
+
             ctx.rect(j, y + speed_y * i, 50, 50);
             ctx.fillStyle = "#002aff";
             ctx.fill();
@@ -56,7 +61,7 @@ function draw() {
         speed_x *= -1
         console.log(distract[0] - 40)
     }
-    else if (x >= canvas.width / 2 + 500 || x <= canvas.width / 2 - 500){
+    else if (x >= (canvas.width / 2 + 500) || x <= canvas.width / 2 - 500){
         lives --
         game_active = false
         restart();
