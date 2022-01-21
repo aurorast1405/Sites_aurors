@@ -1,6 +1,6 @@
 body{
-    font-family: Lucida Handwriting, cursive;
-    background: lavender;
+    font: italic small-caps bold 16px/2 cursive;
+    background: lavender url("") no-repeat top center;
     padding: 20px 0px 0 30px;
     font-size: 16px;
     color: indigo;
@@ -42,12 +42,13 @@ img{
     text-decoration: underline;
 }
 
-
 .plan {
+    margin-top: 50px;
     width: 650px;
     background-color: #9988b2;
     border: 5px solid #ffffff;
     color: #ffffff;
+    box-shadow: 0 0 8px -1px #867f92;
 }
 .plan a {
     color: #ffffff;
@@ -55,3 +56,4 @@ img{
 .plan h2 {
     padding: 20px;
 }
+
