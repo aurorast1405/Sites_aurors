@@ -1,5 +1,5 @@
 body{
-    font-family: Lucida Handwriting, cursive;
+    font: italic small-caps bold 16px/2 cursive;
     background: lavender;
     padding: 20px 0 0 30px;
     font-size: 16px;
@@ -33,7 +33,7 @@ table {
     border-collapse: collapse;
     border-spacing: 4px;
     border: 3px solid #5d4584;
-    width: 600px;
+    width: 700px;
     background: #f4f9fb;
 }
 td {
@@ -52,4 +52,16 @@ caption {
     margin-bottom: 10px;
     font-size: 20px;
 
+}
+.navigate li{
+    list-style-type: none;
+    margin: 15px;
+    padding: 5px;
+    background-color: lavender;
+    width: 200px;
+    border-radius: 5%;
+    border: 3px solid #5d4584;
+}
+.change:hover{
+    border: 6px solid #5d4584;
 }
