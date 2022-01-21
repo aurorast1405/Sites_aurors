@@ -6,7 +6,7 @@ header{
     position: center;
 }
 h1{
-    font-family: Lucida Handwriting, cursive;
+    font: italic small-caps bold 16px/2 cursive;
     font-size: 16px;
     color: indigo;
     margin-left: 600px;
@@ -27,6 +27,7 @@ nav{
 
 }
 nav li{
+    font: italic small-caps bold 10px/2 cursive;
     text-align: center;
     display: inline-block;
     padding: 3px;
@@ -35,6 +36,15 @@ nav li{
     height: 28px;
     border: 4px solid #a48fc7;
     border-radius: 13%;
+}
+button{
+    text-align: center;
+    font: italic small-caps bold 10px/2 cursive;
+    color: indigo;
+    width: 90px;
+    height: 22px;
+    background-color: #f4f9fb;
+    border: #f4f9fb;
 }
 aside{
     background-color: #9988b2;
@@ -57,7 +67,7 @@ aside{
     width:1190px;
     height: 475px
 }
-canvas { background: #f4f9fb; }
+canvas { background-image: url("game041.jpg") }
 footer{
     width: 98%;
     height: 80px;
