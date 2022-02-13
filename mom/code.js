@@ -6,7 +6,7 @@ document.body.clientWidth;
 e = [];// trails
 h = [];// heart path
 O = c.width = innerWidth - 100;
-Q = c.height = innerHeight - 100;
+Q = c.height = innerHeight - 250;
 
 v = 32; // num trails, num particles per trail & num nodes in heart path
 M = Math;
