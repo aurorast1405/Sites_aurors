@@ -5,8 +5,8 @@ var a = c.getContext('2d');
 document.body.clientWidth;
 e = [];// trails
 h = [];// heart path
-O = c.width = innerWidth - 150;
-Q = c.height = innerHeight - 150;
+O = c.width = innerWidth - 100;
+Q = c.height = innerHeight - 100;
 
 v = 32; // num trails, num particles per trail & num nodes in heart path
 M = Math;
