@@ -1,0 +1,21 @@
+body{
+    background-color: #d19cd1;
+    font: italic 1.2em "Fira Sans", serif;
+    padding: 30px;
+    font-size: 18px;
+    color: #51026b;
+}
+
+h1{
+    margin-left: 390px;
+}
+
+button{
+    size: 80px 70px;
+    position: initial;
+    margin-left: 170px;
+}
+
+.cnv{
+    background-color: #000000;
+}
